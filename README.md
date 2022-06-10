@@ -27,7 +27,7 @@ To make changes to the source code, go to the page you’re targeting (pagename.
  - If the class name is “bar” and you find .bar and .bar .line, that is because the element has a child. Change the style related to the element and not its child. (.bar:hover is just for the hover effect and not the element per se)
  - If the class name is “bar” and you find .bar more than once, then it is because of the media queries. Scroll up and you will find that the classname is part of a larger curly bracket entitled media queries. The media queries help make the website responsive: suitable for a mobile device. So when modifying the style of an element, check it in the developer’s tools (by right-clicking on chrome and closing inspect) and decide whether you need to make adjustments for the mobile version as well. 
 
-The JS file contains the code for the burger menu: the three bars that replace our navigation bar elements. It contains a simple program that makes the mobile menu (vertical menu with all pages) appear once you click on the bars icon. 
+The JS file contains the code for the burger menu: the three bars that replace our navigation bar elements for a small size screen. It contains a simple program that makes the mobile menu (vertical menu with all pages) appear once you click on the bars icon. 
 
 
 
