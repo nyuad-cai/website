@@ -23,7 +23,6 @@
                                                 height: 80px;
                                                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
                                             }
-
                                             .navlinks {
                                                 list-style-type: none;
                                                 /*to remov ebullet points from nav elemnts*/
@@ -94,6 +93,7 @@
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 margin-left: 180px;
                                                 margin-right: 0px;
+                                                position: fixed;
                                             }
 
                                             .header-text {
@@ -276,12 +276,6 @@
                                                 margin-left: 165px;
                                             }
 
-                                            .img-farah:hover {
-                                                box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737, 5px 5px #373737, 6px 6px #373737;
-                                                -webkit-transform: translateX(-3px);
-                                                transform: translateX(-3px);
-                                                transition: .5s ease;
-                                            }
 
                                             .image-research:hover {
                                                 -webkit-transform: scale(0.8);
@@ -310,9 +304,8 @@
                                                 color: #404040;
                                                 font-size: 19px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
-                                                margin-left: 140px;
-                                                margin-right: 170px;
-                                            }
+                                                margin-left: 10px;
+                                                margin-right: 10px;                                          }
 
                                             @media screen and (max-width: 1024px) {
                                                 body {
@@ -766,12 +759,6 @@
                                                 display: block;
                                             }
 
-                                            .img-ppl:hover {
-                                                box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737, 5px 5px #373737, 6px 6px #373737;
-                                                -webkit-transform: translateX(-3px);
-                                                transform: translateX(-3px);
-                                                transition: .5s ease;
-                                            }
 
                                             .img-researchh {
                                                 float: left;
