@@ -93,7 +93,6 @@
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 margin-left: 180px;
                                                 margin-right: 0px;
-                                                position: fixed;
                                             }
 
                                             .header-text {
@@ -588,12 +587,7 @@
                                                 margin: 20px 80px;
                                             }
 
-                                            .each-new {
-                                                flex-basis: 260px;
-                                                margin-left: 100px;
-                                            }
-
-                                            .each-new .img-newss {
+                                           .img-newss {
                                                 height: 160px;
                                                 width: 185px;
                                                 cursor: pointer;
