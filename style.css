@@ -6,11 +6,11 @@
                                                 list-style: none;
                                                 text-decoration: none;
                                             }
-                                            
+
                                             body {
                                                 overflow-x: hidden
                                             }
-                                            
+
                                             .navbar {
                                                 background-color: rgb(254, 252, 255);
                                                 color: black;
@@ -23,7 +23,7 @@
                                                 height: 80px;
                                                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
                                             }
-                                            
+
                                             .navlinks {
                                                 list-style-type: none;
                                                 /*to remov ebullet points from nav elemnts*/
@@ -32,7 +32,7 @@
                                                 margin: 0;
                                                 transition: 0.7s ease;
                                             }
-                                            
+
                                             .navbar .nav-links ul {
                                                 display: flex;
                                                 /*inline-block*/
@@ -41,11 +41,11 @@
                                                 text-align: center;
                                                 transition: 0.7s ease;
                                             }
-                                            
+
                                             .navbar .nav-links ul li {
                                                 margin: 0 20px;
                                             }
-                                            
+
                                             .navbar a {
                                                 color: rgb(42, 42, 42);
                                                 text-decoration: none;
@@ -54,18 +54,38 @@
                                                 margin-right: 20px;
                                                 transition: 0.7s ease;
                                             }
-                                            
+
                                             .navbar a:hover {
                                                 color: #933fba;
                                             }
-                                            
-                                            .navbar .logo {
-                                                height: 87px;
+
+                                            .navbar .row {
+                                              display: flex;
+                                            }
+
+                                            /* Create three equal columns that sits next to each other */
+                                            .navbar .column {
+                                              flex: 20%;
+                                              padding: 0px;
+                                           }
+}
+                                            .navbar .logo1 {
+                                                height: 100px;
                                                 justify-content: flex-start;
                                                 display: flex;
-                                                margin-left: 35px;
+                                                margin-left: -200px;
+                                                margin-right:0px;
                                             }
-                                            
+
+                                            .navbar .logo2 {
+                                                height: 60px;
+                                                justify-content: flex-start;
+                                                display: flex;
+                                                margin-left: 0px;
+                                                margin-right:0px;
+
+                                            }
+
                                             .navbar .burger {
                                                 display: none;
                                                 width: 30px;
@@ -74,12 +94,12 @@
                                                 right: 50px;
                                                 color: rgb(136, 49, 160);
                                             }
-                                            
+
                                             .image {
                                                 width: 100%;
                                                 overflow-x: hidden;
                                             }
-                                            
+
                                             .header {
                                                 font-size: 34px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
@@ -87,7 +107,7 @@
                                                 margin-top: 30px;
                                                 color: rgb(55, 54, 54);
                                             }
-                                            
+
                                             .inside-text {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -95,7 +115,13 @@
                                                 margin-left: 180px;
                                                 margin-right: 0px;
                                             }
-                                            
+
+                                            .header-text {
+                                                color: #404040;
+                                                font-size: 19px;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                            }
+
                                             @media screen and (max-width: 1000px) {
                                                 body {
                                                     overflow-x: hidden;
@@ -144,7 +170,7 @@
                                                     font-size: 1rem;
                                                 }
                                             }
-                                            
+
                                             footer {
                                                 background-color: rgb(244, 237, 247);
                                                 height: auto;
@@ -156,7 +182,7 @@
                                                 left: 0;
                                                 right: 0;
                                             }
-                                            
+
                                             .footer-content {
                                                 display: flex;
                                                 align-items: center;
@@ -164,21 +190,21 @@
                                                 flex-direction: column;
                                                 text-align: center;
                                             }
-                                            
+
                                             .footer-conetnt h3 {
                                                 font-size: 1.8rem;
                                                 font-weight: 400;
                                                 text-transform: capitalize;
                                                 line-height: 3rem;
                                             }
-                                            
+
                                             .footer-content p {
                                                 max-width: 500px;
                                                 margin: 10px auto;
                                                 line-height: 28px;
                                                 font-size: 14px;
                                             }
-                                            
+
                                             .socials {
                                                 list-style: none;
                                                 display: flex;
@@ -186,44 +212,44 @@
                                                 justify-content: center;
                                                 margin: 1rem 0 3rem0;
                                             }
-                                            
+
                                             .socials li {
                                                 margin: 0 10px;
                                             }
-                                            
+
                                             .socials a {
                                                 text-decoration: none;
                                                 color: #683998;
                                             }
-                                            
+
                                             .socials a i {
                                                 font-size: 2rem;
                                                 transition: color .4s ease;
                                             }
-                                            
+
                                             .socials a:hover i {
                                                 color: #7b5aa6;
                                             }
-                                            
+
                                             .footer-bottom {
                                                 background: #e8deec;
                                                 width: 100vw;
                                                 padding: 20px;
                                                 text-align: center;
                                             }
-                                            
+
                                             .footer-bottom p {
                                                 font-size: 14px;
                                                 text-align: center;
                                                 text-transform: capitalize;
                                                 word-spacing: 2px;
                                             }
-                                            
+
                                             .footer-bottom span {
                                                 opacity: .4;
                                                 font-weight: 200;
                                             }
-                                            
+
                                             .headers-pages-ppl {
                                                 font-size: 32px;
                                                 margin-left: 140px;
@@ -231,7 +257,7 @@
                                                 color: #702b9d;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                             }
-                                            
+
                                             .headers-pages {
                                                 font-size: 32px;
                                                 margin-left: 180px;
@@ -240,14 +266,14 @@
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 margin-right: 55px;
                                             }
-                                            
+
                                             .course-title {
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 font-size: 20px;
                                                 margin-left: 70px;
                                                 margin-top: 23px;
                                             }
-                                            
+
                                             .text-pages {
                                                 font-family: Arial, Helvetica, sans-serif;
                                                 font-size: 17px;
@@ -255,13 +281,13 @@
                                                 margin-top: 20px;
                                                 margin-right: 60px;
                                             }
-                                            
+
                                             .link {
                                                 text-decoration: none;
                                                 font-size: 18px;
                                                 color: #8640a6;
                                             }
-                                            
+
                                             .img-farah {
                                                 float: left;
                                                 width: 285px;
@@ -269,21 +295,21 @@
                                                 padding: 10px;
                                                 margin-left: 165px;
                                             }
-                                            
+
                                             .img-farah:hover {
                                                 box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737, 5px 5px #373737, 6px 6px #373737;
                                                 -webkit-transform: translateX(-3px);
                                                 transform: translateX(-3px);
                                                 transition: .5s ease;
                                             }
-                                            
+
                                             .image-research:hover {
                                                 -webkit-transform: scale(0.8);
                                                 -ms-transform: scale(0.8);
                                                 transform: scale(0.8);
                                                 transition: 1s ease;
                                             }
-                                            
+
                                             .image-research {
                                                 width: 300px;
                                                 height: 330px;
@@ -292,14 +318,14 @@
                                                 float: left;
                                                 padding: 0 20px 0 0;
                                             }
-                                            
+
                                             .research-text-img {
                                                 text-align: justify;
                                                 margin-right: 370px;
                                                 font-size: 21px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                             }
-                                            
+
                                             .inside-text-ppl {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -307,7 +333,7 @@
                                                 margin-left: 140px;
                                                 margin-right: 170px;
                                             }
-                                            
+
                                             .alumni-text {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -315,7 +341,7 @@
                                                 margin-left: 10px;
                                                 margin-right: 10px;
                                             }
-                                            
+
                                             .inside-text-pplpage {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -323,7 +349,7 @@
                                                 margin-left: 10px;
                                                 margin-right: 10px;
                                             }
-                                            
+
                                             @media screen and (max-width: 1024px) {
                                                 body {
                                                     overflow-x: hidden;
@@ -333,7 +359,7 @@
                                                     margin-right: 55px;
                                                 }
                                             }
-                                            
+
                                             @media screen and (max-width: 1024px) {
                                                 body {
                                                     overflow-x: hidden;
@@ -359,7 +385,7 @@
                                                     margin-right: 40px;
                                                 }
                                             }
-                                            
+
                                             .inside-text {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -367,7 +393,7 @@
                                                 margin-left: 260px;
                                                 margin-right: 160px;
                                             }
-                                            
+
                                             .headers-pages-res {
                                                 font-size: 32px;
                                                 margin-left: 260px;
@@ -375,7 +401,7 @@
                                                 color: #702b9d;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                             }
-                                            
+
                                             @media only screen and (max-width: 1360px) {
                                                 .image-research {
                                                     width: 300px;
@@ -399,7 +425,7 @@
                                                     font-family: "Barlow Semi Condensed", sans-serif;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 1290px) {
                                                 .image-research {
                                                     width: 300px;
@@ -423,7 +449,7 @@
                                                     font-family: "Barlow Semi Condensed", sans-serif;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 1222px) {
                                                 .image-research {
                                                     width: 300px;
@@ -447,7 +473,7 @@
                                                     font-family: "Barlow Semi Condensed", sans-serif;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 1130px) {
                                                 .image-research {
                                                     width: 300px;
@@ -467,7 +493,7 @@
                                                     margin-left: 130px;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 950px) {
                                                 .image-research {
                                                     width: 300px;
@@ -492,7 +518,7 @@
                                                     font-family: "Barlow Semi Condensed", sans-serif;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 755px) {
                                                 .image-research {
                                                     width: 260px;
@@ -510,7 +536,7 @@
                                                     margin-left: 45px;
                                                 }
                                             }
-                                            
+
                                             .title-people {
                                                 font-size: 19px;
                                                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -518,7 +544,7 @@
                                                 text-align: justify;
                                                 line-height: 22px;
                                             }
-                                            
+
                                             .oval-image {
                                                 float: left;
                                                 width: 180px;
@@ -529,7 +555,7 @@
                                                 padding: 15px;
                                                 margin-left: 35px;
                                             }
-                                            
+
                                             .container-contact {
                                                 width: 100%;
                                                 height: 100vh;
@@ -538,7 +564,7 @@
                                                 align-items: center;
                                                 justify-content: center;
                                             }
-                                            
+
                                             form {
                                                 background: rgb(255, 255, 255);
                                                 display: flex;
@@ -548,13 +574,13 @@
                                                 max-width: 800px;
                                                 border-radius: 20px;
                                             }
-                                            
+
                                             form h3 {
                                                 color: #555;
                                                 font-weight: 800;
                                                 margin-bottom: 20px;
                                             }
-                                            
+
                                             form input,
                                             form textarea {
                                                 border: 0;
@@ -564,7 +590,7 @@
                                                 background: rgb(240, 236, 241);
                                                 font-size: 17px;
                                             }
-                                            
+
                                             form button {
                                                 padding: 15px;
                                                 background: #a65db9;
@@ -577,23 +603,23 @@
                                                 margin: 20px auto 0;
                                                 border-radius: 30px;
                                             }
-                                            
+
                                             .home-container {
                                                 margin: 20px 40px;
                                                 color: rgb(240, 236, 241);
                                             }
-                                            
+
                                             .know-us {
                                                 display: flex;
                                                 justify-content: space-around;
                                                 margin: 20px 80px;
                                             }
-                                            
+
                                             .about-us {
                                                 flex-basis: 260px;
                                                 margin-left: 100px;
                                             }
-                                            
+
                                             .about-us .img-home {
                                                 height: 160px;
                                                 width: 162px;
@@ -601,44 +627,46 @@
                                                 cursor: pointer;
                                                 transition: 1s ease;
                                             }
-                                            
+
                                             .img-home:hover {
                                                 box-shadow: 0 0 0 6px #7b5aa6;
                                                 transition: .5s ease;
                                             }
-                                            
+
                                             .newss {
                                                 display: flex;
                                                 justify-content: space-around;
                                                 margin: 20px 80px;
                                             }
-                                            
+
                                             .each-new {
                                                 flex-basis: 260px;
-                                                margin-left: 100px;
+                                                margin-left: 0px;
+                                                text-align: center;
                                             }
-                                            
+
                                             .each-new .img-newss {
                                                 height: 160px;
                                                 width: 185px;
                                                 cursor: pointer;
                                                 transition: 1s ease;
+                                                justify-content: center;
                                             }
-                                            
+
                                             .img-newss:hover {
                                                 box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737, 5px 5px #373737, 6px 6px #373737;
                                                 -webkit-transform: translateX(-3px);
                                                 transform: translateX(-3px);
                                                 transition: .5s ease;
                                             }
-                                            
+
                                             .home-tags {
                                                 margin-top: 30px;
                                                 margin-left: 35px;
                                                 font-size: 18px;
                                                 color: #7b5aa6;
                                             }
-                                            
+
                                             @media only screen and (max-width: 1000px) {
                                                 body {
                                                     overflow-x: hidden;
@@ -664,7 +692,7 @@
                                                     text-align: center;
                                                 }
                                             }
-                                            
+
                                             .news-container {
                                                 margin: 20px 40px;
                                                 color: rgb(179, 155, 185);
@@ -676,7 +704,7 @@
                         color: rgb(179, 155, 185);
                         justify-content: space-around;
                     }
-                    
+
                     img-news {
                         cursor: pointer;
                         transition: 1s ease;
@@ -685,7 +713,7 @@
                         padding: 15px;
                         margin-left: 28px;
                     }*/
-                                            
+
                                             .image-research-text {
                                                 color: #404040;
                                                 font-size: 19px;
@@ -693,14 +721,14 @@
                                                 margin-left: 80px;
                                                 margin-right: 80px;
                                             }
-                                            
+
                                             .img-news:hover {
                                                 -webkit-transform: scale(0.8);
                                                 -ms-transform: scale(0.8);
                                                 transform: scale(0.8);
                                                 transition: 1s ease;
                                             }
-                                            
+
                                             @media only screen and (max-width: 1000px) {
                                                 .header {
                                                     font-size: 34px;
@@ -720,28 +748,29 @@
                                                     overflow-x: hidden;
                                                 }
                                             }
-                                            
+
                                             .project {
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 font-size: 21px;
                                                 margin-left: 210px;
                                                 color: rgb(27, 27, 27);
                                             }
-                                            
+
                                             .project-text {
                                                 color: #404040;
                                                 font-size: 18px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 margin-left: 210px;
                                             }
-                                            
+
                                             .ppl-tags {
                                                 margin-top: 30px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 font-size: 17px;
                                                 color: #212121;
+                                                text-align: center;
                                             }
-                                            
+
                                             .ppl-tags- {
                                                 margin-top: 30px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
@@ -750,14 +779,14 @@
                                                 margin-left: 110px;
                                                 margin-right: 40px;
                                             }
-                                            
+
                                             .position-ppl {
                                                 margin-top: 12px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
                                                 font-size: 15.5px;
                                                 color: #212121;
                                             }
-                                            
+
                                             .position-ppl- {
                                                 margin-top: 12px;
                                                 font-family: "Barlow Semi Condensed", sans-serif;
@@ -766,7 +795,7 @@
                                                 margin-left: 110px;
                                                 margin-right: 72px;
                                             }
-                                            
+
                                             .about-us .img-ppl {
                                                 height: 180px;
                                                 width: 185px;
@@ -774,14 +803,14 @@
                                                 transition: 1s ease;
                                                 display: block;
                                             }
-                                            
+
                                             .img-ppl:hover {
                                                 box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737, 5px 5px #373737, 6px 6px #373737;
                                                 -webkit-transform: translateX(-3px);
                                                 transform: translateX(-3px);
                                                 transition: .5s ease;
                                             }
-                                            
+
                                             .img-researchh {
                                                 float: left;
                                                 width: 180px;
@@ -791,7 +820,7 @@
                                                 vertical-align: middle;
                                                 height: 220px;
                                             }
-                                            
+
                                             @media screen and (max-width: 500px) {
                                                 .img-researchh {
                                                     width: 270px;
@@ -801,7 +830,7 @@
                                                     margin-left: 63px;
                                                 }
                                             }
-                                            
+
                                             @media only screen and (max-width: 605px) {
                                                 ppl-tags- {
                                                     margin-left: 20px;
@@ -817,17 +846,17 @@
                                                     margin-left: 20px;
                                                 }
                                             }
-                                            
+
                                             .questions-container {
                                                 max-width: 1000px;
                                                 margin: 0 auto;
                                             }
-                                            
+
                                             .question {
                                                 /* for line under text*/
                                                 border-bottom: 1px solid rgb(45, 44, 44);
                                             }
-                                            
+
                                             .question button {
                                                 width: 100%;
                                                 background-color: rgb(255, 255, 255);
@@ -843,7 +872,7 @@
                                                 font-family: Barlow Semi Condensed, sans-serif;
                                                 cursor: pointer;
                                             }
-                                            
+
                                             .question p {
                                                 font-size: 20px;
                                                 font-weight: 400;
@@ -854,19 +883,19 @@
                                                 overflow: hidden;
                                                 transition: all 0.6s ease;
                                             }
-                                            
+
                                             .d-arrow {
                                                 transition: transform 0.5s ease-in;
                                                 color: rgb(120, 61, 150);
                                             }
                                             /*add this class when click*/
-                                            
+
                                             .question p.show {
                                                 max-height: 200px;
                                                 opacity: 1;
                                                 padding: 0px 15px 30px 15px;
                                             }
-                                            
+
                                             .question button .d-arrow.rotate {
                                                 transform: rotate(180deg);
                                             }
