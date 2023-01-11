@@ -282,6 +282,56 @@
                                                 margin-right: 60px;
                                             }
 
+                                                                                        .text-blog-article {
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 16px;
+                                                margin-bottom: 10px;
+                                                margin-left: 400px;
+                                                margin-right: 400px;
+                                            }
+
+                                            .sections-blog-article {
+                                                font-size: 20px;
+                                                margin-left: 400px;
+                                                margin-bottom: 15px;
+                                                color: #702b9d;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                                margin-right: 400px;
+                                            }
+
+                                            .headers-blog-article {
+                                                font-size: 26px;
+                                                margin-left: 400px;
+                                                color: #702b9d;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                                margin-right: 400px;
+                                            }
+
+                                            .headers-pages-blog {
+                                                font-size: 32px;
+                                                margin-left: 140px;
+                                                margin-top: 23px;
+                                                color: #702b9d;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                            }
+
+                                            .sections-blog-main {
+                                                font-size: 26px;
+                                                margin-left: 140px;
+                                                margin-top: 25px;
+                                                color: #702b9d;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                                margin-right: 300px;
+                                            }
+
+                                            .text-blog-main {
+                                                font-size: 18px;
+                                                margin-left: 140px;
+                                                margin-top: 25px;
+                                                font-family: "Barlow Semi Condensed", sans-serif;
+                                                margin-right: 300px;
+                                            }
+
                                             .link {
                                                 text-decoration: none;
                                                 font-size: 18px;
@@ -317,6 +367,20 @@
                                                 margin-top: 35px;
                                                 float: left;
                                                 padding: 0 20px 0 0;
+                                            }
+
+                                            .img-blog-center {
+                                                display: block;
+                                                width: 30%;
+                                                margin-left: 140px;
+                                                padding: 10px;
+                                            }
+
+                                            .img-blog {
+                                                float: right;
+                                                width: 35%;
+                                                padding: 10px;
+                                                margin-right: 400px;
                                             }
 
                                             .research-text-img {
