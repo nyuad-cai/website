@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu Dhabi AI Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="icon" href="images/FINAL AI LAB (1).png">
+
+    <script src="https://kit.fontawesome.com/0f21a76f80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Nav bar section-->
+
+<nav class="navbar">
+
+    <div class="row">
+        <!--         <div class="column">
+                    <a href="https://nyuad.nyu.edu/en/">
+                        <img class="logo2" src="images/nyuad-2.png"></a>
+                </div> -->
+        <div class="column">
+            <a href="index.html">
+                <img class="logo2" src="images/FINAL AI LAB (1).png"></a>
+        </div>
+    </div>
+
+    <div class="nav-links">
+        <ul>
+            <li>
+                <a href="index.html" , class="header-text">HOME</a>
+            </li>
+            <li>
+                <a href="research.html" , class="header-text">RESEARCH</a>
+            </li>
+            <li>
+                <a href="people.html" , class="header-text">PEOPLE</a>
+            </li>
+            <li>
+                <a href="teaching.html" , class="header-text">EDUCATION</a>
+            </li>
+
+            <li>
+                <a href="apply.html" , class="header-text">OPPORTUNITIES</a>
+            </li>
+
+            <li>
+                <a href="blog.html" , class="header-text">BLOG</a>
+            </li>
+        </ul>
+    </div>
+
+    <img src="images/burgermenu.png" class="burger">
+</nav>
+<header></header>
+<br>
+<br>
+    <h2 class="headers-blog-article">
+        Abu Dhabi AI Connect
+    </h2>
+<br>
+
+<p class="text-blog-article">
+    Sarah Pardo
+</p>
+<p class="text-blog-article">
+    14 December 2022
+</p>
+<br>
+
+<p class="text-blog-article">
+    The <a href="https://abudhabiaiconnect.com/" class="text-blog">Abu Dhabi AI Connect conference</a> delivered two days of talks from distinguished figures working at the cutting edge of AI research and practice.
+    Several shared themes stood out as an indication of trends in the field.
+</p>
+
+<br>
+
+<p class="sections-blog-article">
+    <i>Making the new unreasonable effectiveness reasonable</i>
+</p>
+
+<p class="text-blog-article">
+    In recent years, the mathematical community has worked to develop stronger formal understanding of learning methods involving neural networks, and to identify properties and components of neural networks (NN) with equivalent objects in various areas of mathematics.
+    Much revolves around the question of what specifically and most fundamentally contributes to the distinctive power of NNs, and several areas of inquiry were presented for answers:
+</p>
+
+<p class="text-blog-article">
+    <b>Structure of the network:</b>
+    NNs are concatenations of function dictionaries, which is in contrast with traditional function dictionaries which are typically superpositions (e.g. wavelets, Fourier modes).
+    This dis
+</p>
+
+<p class="text-blog-article">
+    <b>Learning large scale interactions:</b>
+     NN layers learn filters, but importantly they also learn scale interactions.
+    Comparable performance on vision tasks can be achieved when the filters are not learned but implemented as fixed wavelet transforms, suggesting that the power lies more in the learned scale relations.
+</p>
+
+<p class="text-blog-article">
+    <b>Iterative optimization algorithms:</b>
+     NNs can be viewed as parameterized iterative algorithms, where the particular advantage is in the learned parameters.
+    For instance, when used to implement optimization algorithms, this introduces an interesting added capacity--the ability to optimize the optimizer, as it were.
+</p>
+
+<p class="text-blog-article">
+    <b>High-dimensionality:</b>
+     NNs are uniquely capable of extracting structure from high-dimensional problems, and are also susceptible to analysis as high-dimensional objects (e.g. infinite-width limits).
+    NNs can model dynamical systems, and are themselves stochastic dynamical systems, and this duality may underlie their unique capabilities.
+</p>
+
+<p class="text-blog-article">
+    <b>Statistical physics:</b>
+     Statistical physics is naturally implicated as a discipline centered on strongly interacting disordered systems with many components.
+    For instance, a seemingly high-dimensional system can have a reduced and more-tractable effective dimension, and sub-manifolds can be identified;
+    using this analysis has revealed "perceptual" sub-manifolds in data such as MNIST.
+</p>
+
+<p class="text-blog-article">
+    <b>Mean field games:</b>
+     While the size of a population in a system may go to infinity, it may be the case that the system has only few explanatory variables.
+    It may be that the effectiveness of NNs lies in the ability of an architecture to identify such hidden variables.
+</p>
+<br>
+
+<p class="sections-blog-article">
+    <i>Using what’s already there</i>
+</p>
+
+<p class="text-blog-article">
+    Neural networks have proven to be particularly effective in cases where the underlying mapping lacks strong regularity properties, or at least those properties are not well known in advance.
+    However, many applications do contain elements which are potentially quite well known, and have an existing body of analytic techniques which can form a foundation or inspiration for design of neural network models.
+</p>
+
+<p class="text-blog-article">
+    <b>Model-based deep learning:</b>
+     In model-based deep learning, the "learning" component is introduced “in a gradual way.” One takes an existing model or solver and substitutes parts of the algorithm with relatively simple networks.
+    This leads to architectures which can be considerably simpler and more interpretable, without losing performance.
+</p>
+
+<p class="text-blog-article">
+    <b>Using inductive bias in the treatment of data:</b>
+     It is important to apply available knowledge of the spaces in which data lives, for instance distinguishing image-based computer vision tasks for which Euclidean geometry is sufficient, from tasks like brain connectomics with data that live on a sphere, for which Riemannian methods are required.
+    This kind of prior knowledge can inform the design of models which enforce applicable symmetries or invariance properties.
+</p>
+<br>
+
+<p class="sections-blog-article">
+    <i>Optimizing distributed systems</i>
+</p>
+
+<p class="text-blog-article">
+    The commercial trend in computing is toward increasingly large and embedded systems, and along with it comes the demand for AI methods colocated with these systems.
+    This introduces problems related to training and deploying models in a distributed context.
+</p>
+
+<p class="text-blog-article">
+    <b>Cost vs utility:</b>
+    On the one hand, top computing resources today require investment on the order of $50m to $1b, which makes the technology extremely specialized and places the highest levels of computing power squarely in the hands of those with the highest concentrations of capital.
+    On the other hand, such systems may only utilize a small fraction of their capacity, as low as 1-3%. It’s clear that much more can be done with much smaller resources, given the development and application of improved distributed computing algorithms and communication protocols.
+</p>
+
+<p class="text-blog-article">
+    <b>“Distributed”-ness in computing is a diverse problem:</b>
+    Different conditions have different implications for communication requirements–-how much of which data needs to be kept for how long and transferred how often–-as well as potential heterogeneity in noise or available granularity of the data itself.
+    This is important in the development of federated learning, where a cross-device application may involve on the order of 10^5 clients, but each client will potentially participate only once; cross-silo applications may involve fewer (e.g. 10^2) clients, but all clients may participate in all rounds.
+    General algorithms need to perform well on all of these cases, treating them on a continuum.
+</p>
+
+<p class="text-blog-article">
+    <b>Scale-free solutions: </b>
+    This can be informed by the free energy principle of Karl Friston, which provides a scale-free description of the behavior of systems stemming from the causal partitioning properties of Markov blankets.
+    The problem can also be formalized by constructing a configuration space, for instance from dimensions of cost, resource, and quality, allowing for a legible analysis of trajectories and construction of optimization problems.
+</p>
+<br>
+
+<p class="sections-blog-article">
+    <i>Centering ethics and safety</i>
+</p>
+
+<p class="text-blog-article">
+    The trend in computing toward increasingly large and embedded systems also naturally poses foundational questions of ethics and safety, in particular surrounding the collection and use of data.
+</p>
+
+<p class="text-blog-article">
+    <b>Imperatives for ethical data use:</b>
+    This includes enforcing people’s rights over their own information, distributing the value which is created from data, and using data to maximize social welfare.
+    Some of the existing work includes the development of frameworks for standardizing privacy preservation in federated learning applications, to facilitate systematic adoption in practice.
+</p>
+
+<p class="text-blog-article">
+    <b>Autonomous systems:</b>
+    The discussion of autonomous systems considered the importance of balancing the trustworthiness of a system and the criticality of its task, a calculation which can determine the degree of autonomy the system should be granted.
+</p>
+
+<p class="text-blog-article">
+    <b>Safety in healthcare applications:</b>
+    We mean potentially multiple things by AI in healthcare: transparently automating doctors’ thought process; reproducing doctors’ analyses, but possibly with unknown, black-box logic; or finding novel relations in data to develop new treatments.
+    AI in healthcare affords a natural “Turing test”: for a given task, does the system perform indistinguishably from how a doctor performs, with equal accuracy or quality?
+    However, this test may not be satisfactory in the black-box case when a model lacks the explanatory power of a doctor, and AI-powered design of new treatments is considered of the same risk level as drug development.
+</p>
+<br>
+
+<p class="sections-blog-article">
+    <b>Takeaways for AI in healthcare</b>
+</p>
+
+<p class="text-blog-article">
+    Many learning problems are not totally unstructured and mysterious; this is particularly true in imaging and medical applications and we can use it to our advantage.
+    Considering the additional importance in healthcare of interpretable models and decision-making, it is also of interest to develop models where the “black-box” components are restricted to points where they are essential in providing a performance advantage.
+    The use of a model-based learning approach is promising in its potential to deliver models with both high performance and improved explainability.
+</p>
+
+<p class="text-blog-article">
+    Distributed computing is heavily implicated in healthcare data; health data in particular tends to be distributed in many small, heterogeneous sets, making the aggregation of data from multiple sources particularly appealing.
+    It is also an area where the use of edge devices for patient monitoring and treatment could have a great impact. At the same time, healthcare is an area where it is essential to weigh the trustworthiness of a system with the criticality of the task it fulfills, and to contemplate the ethics of AI, which takes on a heightened importance when the data in question pertains to people’s health.
+    The development of reliable, privacy-preserving models is critical, and as new frameworks and standards are built, health applications must be at the lead in adoption.
+</p>
+
+<br>
+<br>
+
+
+<footer>
+
+    <div class="footer-content">
+        <h3>Clinical AI Lab</h3>
+        <p style=" margin-bottom:2.5em">
+            Solving clinical problems using AI, data science, and machine learning.</p>
+        <ul class="socials">
+            <li>
+                <a href="https://twitter.com/NYUClinicalAI"><i class="fa-brands fa-twitter-square"></i>
+                </a>
+            </li>
+        </ul>
+
+        <a href="https://nyuad.nyu.edu/en/">
+            <img class="logo3" src="images/nyuad-2.png"></a>
+
+        <br>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>copyright &copy; 2022 Clinical AI Lab.</p>
+
+    </div>
+
+</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
